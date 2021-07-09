@@ -4,7 +4,7 @@
     const SLIDER = {
         BODY: document.querySelector('.slider-carousel').querySelector('ul'),
         START: 1000,
-        SPEED: 10000
+        SPEED: 5000
     };
 
     if (SLIDER) {
