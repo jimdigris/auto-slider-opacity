@@ -1,0 +1,25 @@
+.slider-carousel {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background-color: brown;
+    position: relative;
+}
+
+.slider-carousel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-carousel li {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 5s;
+    opacity: 1;
+}
+
+.carousel img {
+    width: 100%;
+} 
