@@ -8,7 +8,7 @@
     };
 
     if (SLIDER.BODY !== null) {
-        let elements = document.querySelectorAll('li');
+        let elements = SLIDER.BODY.querySelectorAll('li');
         let count = elements.length;
 
         function animation(number) {
