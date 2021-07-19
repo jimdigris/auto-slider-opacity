@@ -7,7 +7,7 @@
         SPEED: 5000
     };
 
-    if (SLIDER) {
+    if (SLIDER.BODY !== null) {
         let elements = document.querySelectorAll('li');
         let count = elements.length;
 
